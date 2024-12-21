@@ -9,11 +9,19 @@ int main() {
 	while(t--)
 	{
 	    cin>>x>>y;
-	    if(x<y)
-	    cout<<x<<"\n";
-	    
-	    else
-	    cout<<x/y +x%y<<"\n";
+	    int count =0;
+	   while(x){
+	       if(y<=x){
+	           count++;
+	           x=x-y;       
+	        }
+	        
+	       else{
+	           count++;
+	           x=x-1;
+	       }
+	   }
+	   cout<<count<<"\n";
 	}
 return 0;
 }
