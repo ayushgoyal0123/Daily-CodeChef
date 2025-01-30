@@ -7,7 +7,7 @@ int main() {
 	cin>>t;
 	while(t--){
 	    cin>>x;
-	    x>66 and x<45001? cout<<"YES\n" : cout<<"NO\n";
+	    x>66 && x<45001? cout<<"YES\n" : cout<<"NO\n";
 	}
 return 0;
 }
